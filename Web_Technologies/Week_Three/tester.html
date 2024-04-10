@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <div>
+        <h1>Welcome to this form</h1>
+    </div>
+
+    <div>
+        <form>
+        <label for="name">Name:</label>
+        <!--this input type is for a text--> 
+        <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Please enter your name here">
+        <br> <br>
+
+        <label for="password">Password:</label>
+        <!--this input type is for a password-->
+        <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Please enter your password">
+        <br> <br> <br>
+
+        <fieldset>
+            <legend>Payment</legend>
+            <br>
+            <label>Please enter your preferred payment method:</label>
+            <br> <br>
+
+            <!--this input type is for selecting one option-->
+            <!--the name attribute categorizes each input into one category to enable the selection of only one option-->
+            <input
+            type="radio"
+            id="bankPayment"
+            name="paymentMethod"
+            value="bankPayment">
+            <label for="bankPayment">Bank Payment</label>
+            <br> <br>
+
+            <!--this input type is for selecting one option-->
+            <!--the name attribute categorizes each input into one category to enable the selection of only one option-->
+            <input
+            type="radio"
+            id="paypal"
+            name="paymentMethod"
+            value="paypal">
+            <label for="paypal">PayPal</label>
+            <br> <br>
+
+            <!--this input type is for selecting one option-->
+            <!--the name attribute categorizes each input into one category to enable the selection of only one option-->
+            <input
+            type="radio"
+            id="cash"
+            name="paymentMethod"
+            value="cash">
+            <label for="cash">Cash</label>
+            <br> <br>
+        </fieldset>
+
+        <br> <br>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <br>
+            <label>Please select one or more hobies below:</label>
+            <br> <br>
+
+            <!--this input type is for selecting multiple options-->
+            <!--the name attribute categorizes each input into one category for easier access-->
+            <input
+            type="checkbox"
+            id="basketBall"
+            name="hobbies"
+            value="basketBall">
+            <label for="basketBall">Basketball</label>
+            <br> <br>
+
+            <!--this input type is for selecting multiple options-->
+            <!--the name attribute categorizes each input into one category for easier access-->
+            <input
+            type="checkbox"
+            id="footBall"
+            name="hobbies"
+            value="footBall">
+            <label for="footBall">Football</label>
+            <br> <br>
+
+            <!--this input type is for selecting multiple options-->
+            <!--the name attribute categorizes each input into one category for easier access-->
+            <input
+            type="checkbox"
+            id="netBall"
+            name="hobbies"
+            value="netBall">
+            <label for="netBall">Netball</label>
+            <br> <br>
+        </fieldset>
+
+        <br> <br>
+
+        <!--this button type resets the responses of the form-->
+        <button type="reset">Reset Response</button> 
+        <!--this button type submits the responses of the form-->
+        <button type="submit">Submit Response</button>
+        
+        </form>
+    </div>
+</body>
+</html>

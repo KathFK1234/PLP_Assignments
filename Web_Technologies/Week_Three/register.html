@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <div>
+        <h1>Welcome to this Registration Form</h1>
+    </div>
+    <div>
+        <form>
+            <label for="name"><h3>Name:</h3></label>
+            <address>Please enter your name here</address>
+            <br>
+            <input 
+            type="text"
+            id="name"
+            name="name"
+            aria-required="true">
+            <br> <br>
+
+            <label for="dob"><h3>Date of Birth:</h3></label>
+            <address>Please enter your date of birth here</address>
+            <br>
+            <input 
+            type="date"
+            id="dob"
+            name="dob"
+            aria-required="true">
+            <br> <br>
+
+            <label for="gender"><h3>Gender:</h3></label>
+            <address>Please choose your gender here</address>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br> <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br> <br>
+            <input type="radio" id="notSay" name="gender" value="notSay">
+            <label for="notSay">Prefer not to say</label>
+            <br> <br>
+
+            <label for="address"><h3>Address:</h3></label>
+            <address>Please enter your address here</address>
+            <br>
+            <input
+            type="text"
+            id="address"
+            name="address"
+            aria-required="true">
+            <br> <br>
+
+            <label for="telnumber"><h3>Telephone:</h3></label>
+            <address>
+                Please enter your phone number here in the format 1234-567-890
+            </address>
+            <br>
+            <input
+            type="tel"
+            pattern="[0-9]{4}[0-9]{3}[0-9]{3}"
+            id="telnumber"
+            name="telnumber"
+            aria-required="true">
+            <br> <br>
+
+            <label for="email"><h3>Email Address:</h3></label>
+            <address>Please enter your email address here</address>
+            <br>
+            <input 
+            type="email"
+            id="email"
+            name="email"
+            aria-required="true">
+            <br> <br>
+
+            <label for="course"><h3>Course:</h3></label>
+            <address>Please enter your current course of study here</address>
+            <br>
+            <input
+            type="text"
+            id="course"
+            name="course"
+            aria-required="true">
+            <br> <br> <br>
+
+            <button type="submit">Register</button> 
+            <button type="reset">Cancel</button> 
+            <br> <br> <br>
+        </form>
+    </div>
+</body>
+</html>
